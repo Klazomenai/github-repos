@@ -14,8 +14,6 @@ export TF_VAR_github_token=""
 ```
 
 ## Terraform
-GitHub repositories defined via Terraform
-
 ```sh
 terraform init
 terraform plan -out repositories.tfplan

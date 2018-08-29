@@ -3,6 +3,8 @@ GitHub repositories defined in Terraform. The Organisation must already exist pr
 
 Follow the [Managing GitHub with Terraform](https://www.hashicorp.com/blog/managing-github-with-terraform) instructions for creating your tokens.
 
+Clone this repo, add your Organizationa and start creating repositories.
+
 ## Exports
 Ensure the following are defined in your environment.
 

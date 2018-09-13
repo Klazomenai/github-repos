@@ -18,8 +18,8 @@ resource "github_repository" "github-repos" {
   private = false
 }
 ```
- - NOTE: `private = false`
- - NOTE: `license_template` has `default = "agpl-3.0"`.
+ - **NOTE:** `private = false`.
+ - **NOTE:** `license_template` has `default = "agpl-3.0"`.
  - If you require another license, [choose one here](https://choosealicense.com/), then pick the version out of the URL. I.e.: for `agpl-3.0`, the URL is: https://choosealicense.com/licenses/agpl-3.0/
 
 ## Exports

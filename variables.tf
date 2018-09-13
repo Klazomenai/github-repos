@@ -11,7 +11,7 @@ variable "license_template" {
   default     = "agpl-3.0"
 }
 
-variable "github_repo_private" {
+variable "private" {
   description = "GitHub privacy default should be false to aquire more"
   default = "false"
 }

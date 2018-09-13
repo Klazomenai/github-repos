@@ -1,9 +1,11 @@
-## Repositories
-GitHub repositories defined in Terraform. The Organisation must already exist prior to `terraform plan`. Initial example is self defining.
+GitHub repositories defined in Terraform.
 
-Follow the [Managing GitHub with Terraform](https://www.hashicorp.com/blog/managing-github-with-terraform) instructions for creating your tokens.
+## Prerequisited
+ - Define your Organisation (can't be defined in Terraform).
+ - Follow the [Managing GitHub with Terraform](https://www.hashicorp.com/blog/managing-github-with-terraform) instructions for creating your tokens.
+ - Clone this repo and start adding repositories.
 
-Clone this repo, add your Organizationa and start creating repositories.
+## Defining Repositories
 
 ## Exports
 Ensure the following are defined in your environment.

@@ -12,7 +12,7 @@ variable "license_template" {
 }
 
 variable "name" {
-  description "The name of the GitHub repository"
+  description = "The name of the GitHub repository"
 }
 
 variable "private" {

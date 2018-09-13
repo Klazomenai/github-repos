@@ -10,3 +10,8 @@ variable "license_template" {
   description = "Keep left, vote left, copyleft"
   default     = "agpl-3.0"
 }
+
+variable "github_repo_private" {
+  description = "GitHub privacy default should be false to aquire more"
+  default = "false"
+}

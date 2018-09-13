@@ -18,6 +18,9 @@ resource "github_repository" "github-repos" {
   private = false
 }
 ```
+ - NOTE: Privacy default!
+ - NOTE: `license_template` has `default = "agpl-3.0"`.
+ - If you require another license, [choose one here](https://choosealicense.com/), then pick the version out of the URL. I.e.: for `agpl-3.0`, the URL is: https://choosealicense.com/licenses/agpl-3.0/
 
 ## Exports
  - Ensure the following environment variables are defined in your environment:
@@ -29,8 +32,12 @@ export TF_VAR_github_token=""
 
 ## Terraform
  - Its Terraforming time:
+
 ```sh
 terraform init
 terraform plan -out repositories.tfplan
 terraform apply repositories.tfplan
 ```
+
+Note: Don't lose your terraform state until its pushed to a bucket.
+

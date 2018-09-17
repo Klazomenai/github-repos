@@ -22,3 +22,6 @@ override.tf.json
 
 # Ignore terraform plan
 *.tfplan
+
+# Ignore Vim swap files
+*.swp

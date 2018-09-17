@@ -15,6 +15,10 @@ variable "name" {
   description = "The name of the GitHub repository"
 }
 
+variable "description" {
+  description = "The description of the GitHub repository"
+}
+
 variable "private" {
   description = "GitHub privacy default should be false to aquire more"
   default = "false"
